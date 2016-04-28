@@ -1,0 +1,19 @@
+# Temp files
+.DS_Store
+*.log
+*.zip
+
+# API keys
+keys.js
+
+# 3rd party libs
+lib/
+
+# Node modules
+node_modules
+
+# Dist directory
+dist
+
+# Blockspring
+blockspring.json

@@ -1,0 +1,36 @@
+.yelp-rating {
+  margin-right: 5px;
+}
+
+.yelp-rating-img {
+  vertical-align: middle;
+}
+
+.yelp-link {
+  white-space: nowrap;
+  margin-left: 5px;
+}
+
+.yelp-rating-container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.yelp-logo {
+  margin-left: 5px;
+  vertical-align: middle;
+}
+
+.yelp-snippet {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.yelp-snippet-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  float: left;
+  margin-right: 5px;
+}

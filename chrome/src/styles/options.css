@@ -1,0 +1,34 @@
+body {
+  margin: 20px 40px;
+  font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', Arial, Sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+
+h1>img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+#sites {
+  margin-bottom: 10px;
+}
+
+#sites>label {
+  margin-right: 10px;
+}
+
+#save {
+  margin: 10px 0px;
+  padding: 5px 10px;
+  background-color: #3498DB;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+  font-family: 'Noto Sans', 'Segoe UI', 'Lucida Grande', 'Open Sans', Arial, Sans-serif;
+  font-size: 14px;
+}
+
+#status {
+  margin: 10px 0px;
+}

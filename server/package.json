@@ -1,0 +1,15 @@
+{
+  "name": "yelpify-blockspring",
+  "version": "1.0.0",
+  "description": "Yelp API wrapper Blockspring function",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-jshint": "^2.0.0",
+    "gulp-token-replace": "^1.0.3",
+    "jshint": "^2.9.1",
+    "run-sequence": "^1.1.5"
+  }
+}
