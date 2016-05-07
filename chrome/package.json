@@ -1,6 +1,6 @@
 {
   "name": "yelpify-chrome",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Show Yelp ratings on Google, GrubHub, OpenTable and more sites.",
   "license": "MIT",
   "private": true,

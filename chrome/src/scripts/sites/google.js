@@ -73,10 +73,17 @@ function yelpifyGoogle(name, address) {
 
       var yelpSnippetText = business.snippet_text;
       var yelpSnippetImageUrl = business.snippet_image_url;
+
+      var yelpReviewContainer = 
+        document.getElementById('yelp-review') || document.createElement('div');
+      yelpReviewContainer.setAttribute('id', 'yelp-review');
+      yelpReviewContainer.innerHTML = '';
       
       var yelpHeaderElement = document.createElement('div');
       yelpHeaderElement.setAttribute('class', GBI_REV_ELM1_CLASS);
       yelpHeaderElement.innerHTML = yelpHeaderHTML;
+
+      yelpReviewContainer.appendChild(yelpHeaderElement);
 
       var yelpSnippetElement = document.createElement('div');
       yelpSnippetElement.setAttribute('class', GBI_SNIPPET_CLASS + ' yelp-snippet');
@@ -92,11 +99,11 @@ function yelpifyGoogle(name, address) {
       separator2.style.clear = 'both';
       
       if(gReviewsElement1) {
-        gReviewsElement1.parentNode.appendChild(yelpHeaderElement);    
+        gReviewsElement1.parentNode.appendChild(yelpReviewContainer);    
       } else {
         var gReviewsElement2 = document.getElementsByClassName(GBI_REV_ELM2_CLASS)[0];
         yelpHeaderElement.setAttribute('class', GBI_REV_ELM2_CLASS);
-        gReviewsElement2.parentNode.appendChild(yelpHeaderElement);
+        gReviewsElement2.parentNode.appendChild(yelpReviewContainer);
         separator2.style.marginTop = '10px';
       }
       

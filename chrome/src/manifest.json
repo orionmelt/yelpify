@@ -1,6 +1,6 @@
 {
   "name": "Yelpify",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "manifest_version": 2,
   "description": "Show Yelp ratings on Google, GrubHub, OpenTable and more sites.",
   "icons": {
